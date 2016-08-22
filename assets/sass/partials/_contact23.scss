@@ -1,0 +1,77 @@
+#contact{
+	    height:415px;
+		background:url(../img/background/background.jpg);
+		background-position:fixed;
+		background-attachment:fixed;
+		
+
+		img{
+			margin-top: 75px;
+		}
+		
+		p{
+			font-size: 15px;
+    		line-height: 1.6;
+    		margin-top: 30px;
+    		color: #F2F7FA;
+		}
+		strong{
+			font-size:15px;
+		}
+		
+		.col-md-5{
+			
+				
+				margin-top: 80px;
+				color: #ffffff;
+				font-size: 15px;
+				margin-bottom: 25px;
+    			font-weight: 500;
+    			text-transform: uppercase;
+    			text-align: center;
+    			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
+    			font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+
+    			i{
+    				margin-top: 25px;
+    				margin-right: 25px;
+   					-webkit-text-fill-color: transparent; 
+   					-webkit-text-stroke-width: 1px;
+   					-webkit-text-stroke-color: #1AC6FF;
+   					
+   					
+				
+    			}
+
+		}	
+
+		.col-md-3{
+			text-align:center;
+			margin-top: 80px;
+			font-size: 15px;
+			color: #ffffff;
+			font-weight: 500;
+			margin-bottom: 25px;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
+    		font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+
+			p{
+				i{
+					margin-right: 15px;
+					-webkit-text-fill-color: transparent; 
+   					-webkit-text-stroke-width: 0.5px;
+   					-webkit-text-stroke-color: #1AC6FF;
+
+				}
+				a{
+					color: #66D9EF;
+				}
+			}
+
+
+
+		}	
+
+}

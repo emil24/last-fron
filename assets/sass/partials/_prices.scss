@@ -1,0 +1,147 @@
+#prices {
+	padding-top: 20px;
+			.dollar1 {
+				h1 {
+					    display: block;
+    					font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    					line-height: 1.1;
+    					font-size: 34px;
+    					font-weight: 300;
+
+					span {
+						color: #1ac6ff;
+					}
+				}
+					p {
+						line-height: 25px;
+						font-size: 16px;
+						width: 35%;
+						margin: 0 auto;
+						margin-bottom: 20px*1.5;
+					}
+			}
+	.dollar2 {
+		.pricesPanel {	
+			background: #F8F8F8;
+			border: 1px solid #F0F0F0;
+			margin-bottom: 20px;
+				h2 {
+					font-size: 25px;
+					color: #626262;
+				}
+					.price {
+						background: #F3F3F3;
+						color: #1ac6ff;
+						font-size: 115px;
+						margin-bottom: 20px*2;
+						padding: 15px;
+						padding-bottom: 0px;
+							span {
+								font-size: 47px;
+								position: relative;
+								top: -40px;
+							}
+					}
+				.period {
+					font-size: 15px;
+					line-height: 1;
+					margin-top: -30px;
+				}
+				.package {
+					padding: 30px 15% 50px;
+					ul {
+						li {
+							color: #676767;
+							height: 56px;
+							font-size: 16px;
+							line-height: 25px;
+							border-bottom: 1px solid #dadada;
+							padding: 15px 0;
+							&:last-child {
+								border-bottom: none;
+								margin-bottom: 20px;
+							}
+							span {
+								color: #4C4C4C;
+							}
+						}
+					}
+					button {
+						width:250px;
+						height: 45px;
+						background-color:transparent;
+						border-radius: solid #B6B6B6;
+					}
+			}
+		}
+		.panelHover:hover {
+			background: #1AC6FF;
+			h2 {
+				color: white;
+			}
+			.price {
+				background: #23ADDB;
+				color: white;
+			}
+			.package {
+				ul {
+					li {
+						color: white;
+						span {
+							color: white;
+						}
+					}
+				}
+				button {
+					color:#1ac6ff;
+					border-color: #1ac6ff;
+					background-color:white;
+				}
+			}
+		}
+		.disabled {
+			h2 {
+				color: #BEBEBE;
+			}
+			.price {
+				color: #BEBEBE;
+			}
+			.package {
+				ul {
+					li {
+						color: #BEBEBE;
+						span {
+							color: #A3A3A3;
+						}
+					}
+				}
+				button {
+					color: #BBBBBB;
+					border-color: #B6B6B6;
+				}
+			}
+		}
+	}
+	.dollar3 {
+		padding-top: 60px/2;
+		padding-bottom: 60px/2;
+		h2 {
+			    display: block;
+    			font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    			line-height: 1.1;
+    			font-size: 34px;
+    			font-weight: 300;
+
+			span {
+				color:#1ac6ff;
+			}
+		}
+		p {
+			margin: 0 auto;
+			margin-bottom: 30px;
+			line-height: 25px;
+			font-size: 16px;
+			width: 30%;
+		}
+	}
+}

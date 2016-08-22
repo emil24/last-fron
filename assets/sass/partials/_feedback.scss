@@ -1,0 +1,51 @@
+#feedback{
+		height:250px;
+		background:url(../img/background/background.jpg);
+		background-position:fixed;
+		background-attachment:fixed;
+		position: relative;
+		
+	h2{
+		    font-weight: 300;
+		    display: block;
+    		font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    		line-height: 1.1;
+    		font-size: 45px;
+    		text-align:center;
+    		margin-top: 50px;
+    	span{
+    		color: #1ac6ff;
+    	}	
+	}
+
+		p{
+			text-align:center;
+			position: relative;
+		    margin: 0 1px;
+		    display: block;
+		    padding: 0 200px;
+		    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+		    font-size: 17px;
+		    font-weight: 300;
+		    text-align: center;
+		    line-height: 1.6;
+		    border: none;
+		    color: white;
+		}
+		p:before{
+			    left: 0;
+    			content: url('../img/icon/66.png');
+    			 font-family: "line-icons";
+   				 position: absolute;
+    			 top: 25%;
+		}
+		p:after{
+			    right: 0;
+    			content: url('../img/icon/99.png');
+    			font-family: "line-icons";
+   				 position: absolute;
+    			 top: 25%;
+		}
+
+
+}

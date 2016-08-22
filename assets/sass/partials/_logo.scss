@@ -1,0 +1,20 @@
+html,body{
+	overflow-x: hidden;
+}
+
+
+#logo{
+	height:135px;
+	background-color:#F0F0F0;
+	.col-md-2{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		&:nth-child(even) img{
+			top: 100px;
+		}
+		&:nth-child(odd) img{
+			bottom: 100px;
+		}
+		img{position: absolute; display: none}
+	}
+}
